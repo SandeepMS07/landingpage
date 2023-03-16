@@ -7,7 +7,7 @@ const Footer = () => {
         <span className="mx-1 sm:mx-5 p-8 flex items-center sm:justify-around ">
           <span>
             <img
-              src="../assets/logo-on-white-bg-1.png"
+              src="../assets/icon.png"
               className="max-h-12"
               alt=""
             />
