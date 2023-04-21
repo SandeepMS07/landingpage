@@ -3,8 +3,8 @@ import { BsTelephone } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#17191F] font-body">
-        <span className="mx-1 sm:mx-5 p-8 flex items-center sm:justify-around ">
+    <footer className=" bg-[#17191F] font-body shadow-lg">
+        <span className="mx-1 sm:mx-5 p-8 flex items-center justify-between 2xl:justify-around">
           <span>
             <img
               src="../assets/icon.png"
@@ -12,20 +12,14 @@ const Footer = () => {
               alt=""
             />
           </span>
-          <span className="uppercase font-semibold hidden sm:flex items-center justify-evenly sm:gap-x-8">
+          <span className="uppercase font-semibold flex items-center justify-evenly sm:gap-x-8">
             <span className="text-white flex items-center sm:gap-x-8">
-              <span>
-                <span className="flex items-center gap-x-2">
+              
+                <span className="flex items-center gap-x-2 sm:gap-x-8">
                   <BsTelephone />
-                  <p>080 22960366</p>
+                  <a href="tel:+91 7483800690">+91 7483800690</a>
                 </span>
-              </span>
-              <span>
-                <span className="flex items-center gap-x-2">
-                  <BsTelephone />
-                  <p>+91 7483800690</p>
-                </span>
-              </span>
+              
             </span>
           </span>
         </span>
